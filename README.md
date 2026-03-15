@@ -27,7 +27,7 @@ No additional setup required.
 
 ## Demo
 
-<video src="public/demo.webm" controls width="800" muted loop playsinline></video>
+![Smart Log Viewer demo](public/demo.gif)
 
 *Preview:*
 
