@@ -29,10 +29,6 @@ No additional setup required.
 
 ![Smart Log Viewer demo](public/demo.gif)
 
-*Preview:*
-
-![Smart Log Viewer - local log monitoring for Node.js developers](public/screenshots/product-main.png)
-
 ---
 
 Smart Log Viewer is a **structured log viewer** for Node.js developers. It provides **real-time log streaming** of **JSON logs** from local log files—ideal for **local log monitoring** and **debugging microservices** without the overhead of centralized observability stacks.
