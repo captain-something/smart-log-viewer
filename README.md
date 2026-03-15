@@ -2,10 +2,10 @@
 
 **Real-time structured log viewer for Node.js developers** — debug real-time JSON logs streaming locally without tail -f.
 
-[npm version](https://www.npmjs.com/package/smart-log-viewer)
-[npm downloads](https://www.npmjs.com/package/smart-log-viewer)
-[Node.js](https://nodejs.org)
-[GitHub](https://github.com/sthnaqvi/smart-log-viewer)
+[![npm version](https://img.shields.io/npm/v/smart-log-viewer.svg)](https://www.npmjs.com/package/smart-log-viewer)
+[![npm downloads](https://img.shields.io/npm/dm/smart-log-viewer.svg)](https://www.npmjs.com/package/smart-log-viewer)
+[![Node.js](https://img.shields.io/node/v/smart-log-viewer.svg)](https://nodejs.org)
+[![GitHub](https://img.shields.io/github/stars/sthnaqvi/smart-log-viewer?style=social)](https://github.com/sthnaqvi/smart-log-viewer)
 
 ## Quick Start
 
@@ -27,11 +27,11 @@ No additional setup required.
 
 ## Demo
 
+<video src="public/demo.webm" controls width="800" muted loop playsinline></video>
 
+*Preview:*
 
-*Screenshot fallback:*
-
-Smart Log Viewer - local log monitoring for Node.js developers
+![Smart Log Viewer - local log monitoring for Node.js developers](public/screenshots/product-main.png)
 
 ---
 
@@ -123,10 +123,10 @@ Senior engineers appreciate this reasoning: clarity over minimalism.
 
 | Tool                                  | UI       | JSON support | Multi-file debugging        | Setup complexity          |
 | ------------------------------------- | -------- | ------------ | --------------------------- | ------------------------- |
-| `tail`                                | Terminal | No           | Manual (multiple terminals) | None                      |
-| `lnav`                                | TUI      | Yes          | Yes                         | Install binary            |
-| ELK (Elasticsearch, Logstash, Kibana) | Web      | Yes          | Yes                         | High (containers, config) |
-| **Smart Log Viewer**                  | Web      | Yes          | Yes (tagged, filtered)      | `npm install -g`          |
+| `tail`                                | Terminal | ❌           | ❌                          | ✅ None                   |
+| `lnav`                                | TUI      | ✅           | ✅                          | ✅ Install binary         |
+| ELK (Elasticsearch, Logstash, Kibana) | Web      | ✅           | ✅                          | ❌ High (containers)      |
+| **Smart Log Viewer**                  | Web      | ✅           | ✅ (tagged, filtered)        | ✅ `npm install -g`       |
 
 Smart Log Viewer works as a lightweight alternative to terminal log tailing tools and heavy centralized logging platforms for local structured log debugging.
 
